@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Heart, ArrowUp } from 'lucide-react';
+import {  ArrowUp } from 'lucide-react';
 import { personalInfo } from '@/data';
 
 export default function Footer() {
