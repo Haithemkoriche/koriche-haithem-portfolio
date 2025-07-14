@@ -26,21 +26,27 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     
     setTheme(initialTheme);
     
-    // Apply theme to document
+    // Apply theme to document immediately
+    const root = document.documentElement;
     if (initialTheme === 'dark') {
-      document.documentElement.classList.add('dark');
+      root.classList.add('dark');
+      root.classList.remove('light');
     } else {
-      document.documentElement.classList.remove('dark');
+      root.classList.add('light');
+      root.classList.remove('dark');
     }
   }, []);
 
   useEffect(() => {
     if (mounted) {
+      const root = document.documentElement;
       if (theme === 'dark') {
-        document.documentElement.classList.add('dark');
+        root.classList.add('dark');
+        root.classList.remove('light');
         localStorage.setItem('theme', 'dark');
       } else {
-        document.documentElement.classList.remove('dark');
+        root.classList.add('light');
+        root.classList.remove('dark');
         localStorage.setItem('theme', 'light');
       }
     }

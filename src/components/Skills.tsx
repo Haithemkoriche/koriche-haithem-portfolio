@@ -22,6 +22,14 @@ export default function Skills() {
     mobile: 'from-indigo-500 to-blue-500',
   };
 
+  const categoryTitles = {
+    frontend: 'Frontend Development',
+    backend: 'Backend Development', 
+    database: 'Database & Storage',
+    tools: 'Tools & Automation',
+    mobile: 'Mobile & No-Code',
+  };
+
   const groupedSkills = skills.reduce((acc, skill) => {
     if (!acc[skill.category]) {
       acc[skill.category] = [];
@@ -102,8 +110,8 @@ export default function Skills() {
                     <div className={`p-3 rounded-lg bg-gradient-to-r ${colorClass} text-white`}>
                       <Icon size={24} />
                     </div>
-                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white capitalize">
-                      {category}
+                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
+                      {categoryTitles[category as keyof typeof categoryTitles]}
                     </h3>
                   </div>
 

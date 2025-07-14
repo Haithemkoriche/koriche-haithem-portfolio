@@ -8,16 +8,114 @@ export const personalInfo = {
   location: "Douera, Alger, Algeria",
   github: "https://github.com/Haithemkoriche",
   linkedin: "https://www.linkedin.com/in/korichehaithem/",
-  bio: "Full-stack Developer and Web Specialist with 5+ years of experience in Laravel, PHP, WordPress, and FlutterFlow. Specialized in building scalable web applications, automation systems, and mobile solutions. Passionate about creating innovative solutions and expanding expertise in DevOps & Cloud Technologies.",
+  bio: "Development Manager and Full-stack Developer with 5+ years of experience in Laravel, PHP, VueJs, Angular, and FlutterFlow. Currently leading development teams at Doctofree Technologies and WEBGENIUS. Specialized in building scalable web applications, mobile solutions, automation systems, and no-code platforms. Expert in team management, API development, and delivering innovative digital solutions.",
   avatar: "/placeholder-avatar.jpg"
 };
 
 export const experiences: Experience[] = [
   {
     id: "1",
+    company: "Doctofree Technologies",
+    position: "Development Manager",
+    duration: "December 2024 - April 2025",
+    location: "Hydra, Algeria",
+    description: [
+      "Led full-stack development using Laravel for backend and comprehensive API management",
+      "Designed modern user interfaces with VueJs for responsive frontend development",
+      "Created and maintained Python scraping scripts for automated data extraction and processing",
+      "Built and maintained robust, secure APIs with Laravel ensuring high performance and reliability",
+      "Integrated multiple third-party APIs to expand application functionality and user experience",
+      "Managed virtual machines for hosting applications, including installation and configuration",
+      "Deployed applications and optimized performance in production environments",
+      "Provided technical support, implemented bug fixes, and incorporated user feedback for continuous improvement"
+    ],
+    technologies: ["Laravel", "VueJs", "Python", "API Development", "MySQL", "Virtual Machines", "Server Management"]
+  },
+  {
+    id: "2", 
+    company: "Belsons Technologies",
+    position: "Front-end Developer",
+    duration: "December 2024 - April 2025",
+    location: "Dubai (Remote)",
+    description: [
+      "Designed responsive user interfaces using Angular framework",
+      "Created comprehensive testing scripts using Cypress for automated testing",
+      "Integrated third-party APIs to enhance application functionality and user experience",
+      "Collaborated with remote teams to deliver high-quality frontend solutions",
+      "Maintained code quality standards and implemented best practices for Angular development"
+    ],
+    technologies: ["Angular", "TypeScript", "Cypress", "API Integration", "HTML5", "CSS3"]
+  },
+  {
+    id: "3",
+    company: "WEBGENIUS",
+    position: "Full-stack Developer & Agency Manager",
+    duration: "May 2024 - Present",
+    location: "Cheraga, Algeria",
+    description: [
+      "Directed overall agency management, overseeing multiple web development projects",
+      "Planned and strategized digital solutions for diverse clients across various industries",
+      "Coordinated teams of developers, designers, and project managers for optimal project delivery",
+      "Increased brand awareness and successfully acquired new clients in the local market",
+      "Developed full-stack web applications using modern technologies and frameworks",
+      "Implemented project management methodologies to improve team efficiency and client satisfaction"
+    ],
+    technologies: ["Project Management", "Team Leadership", "Full-stack Development", "Client Relations", "Strategy Planning"]
+  },
+  {
+    id: "4",
+    company: "Development Agency",
+    position: "Full-Stack Developer",
+    duration: "January 2024 - April 2025",
+    location: "Batna (Remote)",
+    description: [
+      "Participated in web and mobile app development for various client projects",
+      "Created custom features and integrated third-party APIs for enhanced functionality",
+      "Maintained and updated existing applications to ensure optimal user experience",
+      "Collaborated with development teams to implement coding best practices and standards",
+      "Delivered high-quality solutions within project timelines and client requirements"
+    ],
+    technologies: ["Web Development", "Mobile Development", "API Integration", "Maintenance", "Team Collaboration"]
+  },
+  {
+    id: "5",
+    company: "TABIBLIB TECHNOLOGIES",
+    position: "Development Manager",
+    duration: "October 2023 - June 2024",
+    location: "Hydra, Algeria",
+    description: [
+      "Led full-stack development using Laravel for backend and comprehensive API management",
+      "Designed user interfaces with Bootstrap and Angular for responsive frontend development",
+      "Developed mobile and web applications using FlutterFlow and Bubble.io platforms",
+      "Created and maintained Python scraping scripts for data extraction and processing",
+      "Built and maintained robust, secure APIs with Laravel framework",
+      "Integrated third-party APIs to expand application functionality",
+      "Managed virtual machines for hosting applications, including installation and configuration",
+      "Deployed applications and optimized performance in production environments",
+      "Provided technical support, bug fixes, and implemented user feedback"
+    ],
+    technologies: ["Laravel", "Bootstrap", "Angular", "FlutterFlow", "Bubble.io", "Python", "API Development", "MySQL"]
+  },
+  {
+    id: "6",
+    company: "Agency in Turkey",
+    position: "WordPress Developer",
+    duration: "2023",
+    location: "Turkey (Remote)",
+    description: [
+      "Designed and customized WordPress sites for diverse international clients",
+      "Integrated themes and plugins based on specific client requirements and business needs",
+      "Optimized websites for SEO performance and improved page load speeds",
+      "Resolved technical issues and provided comprehensive post-deployment support",
+      "Developed custom WordPress plugins and themes for enhanced functionality"
+    ],
+    technologies: ["WordPress", "PHP", "MySQL", "SEO", "Plugin Development", "Theme Customization"]
+  },
+  {
+    id: "7",
     company: "Freelance Web Developer",
     position: "Full-stack Developer & System Architect",
-    duration: "January 2022 - Present",
+    duration: "January 2022 - December 2023",
     location: "Douera, Alger, Algeria",
     description: [
       "Developed and maintained 10+ complex web applications using Laravel framework and PHP, serving over 1000+ active users",
@@ -25,49 +123,9 @@ export const experiences: Experience[] = [
       "Created automated appointment booking systems (BLS Spain Bot) with captcha handling and browser automation using JavaScript and TamperMonkey",
       "Designed and implemented vehicle management systems with fleet tracking, maintenance scheduling, and real-time monitoring capabilities",
       "Built educational management platforms for academic institutions with student registration, course management, and administration tools",
-      "Developed electric charging station management systems with user authentication, session tracking, and payment integration",
-      "Implemented responsive web solutions using modern frontend technologies (Bootstrap, JavaScript, CSS3) ensuring mobile-first design",
-      "Managed database architecture and optimization using MySQL and PostgreSQL for high-performance applications",
-      "Built mobile applications using FlutterFlow and Flutter framework for cross-platform deployment",
-      "Currently expanding expertise in DevOps practices and Cloud Technologies (AWS, Docker) for scalable deployments"
+      "Developed electric charging station management systems with user authentication, session tracking, and payment integration"
     ],
     technologies: ["Laravel", "PHP", "WordPress", "MySQL", "PostgreSQL", "Flutter", "FlutterFlow", "Bootstrap", "JavaScript", "CSS3", "HTML5", "Git", "REST APIs", "TamperMonkey"]
-  },
-  {
-    id: "2",
-    company: "Web Development Projects",
-    position: "PHP Developer & Database Designer",
-    duration: "March 2020 - December 2021",
-    location: "Algeria",
-    description: [
-      "Developed tourism and travel management systems with advanced booking algorithms and payment gateway integration",
-      "Created appointment booking and automation systems for government services, reducing manual processing time by 80%",
-      "Built comprehensive educational management platforms with student enrollment, grade tracking, and parent portal features",
-      "Implemented vehicle and fleet management systems with GPS tracking, maintenance alerts, and reporting dashboards",
-      "Designed and developed e-commerce solutions with inventory management, order processing, and customer relationship tools",
-      "Worked on various PHP-based web applications with emphasis on security, performance optimization, and scalability",
-      "Collaborated with clients to gather requirements, provide technical consultations, and deliver customized solutions",
-      "Implemented database normalization and query optimization techniques resulting in 60% improved application performance"
-    ],
-    technologies: ["PHP", "MySQL", "CSS3", "JavaScript", "Bootstrap", "HTML5", "jQuery", "AJAX", "JSON", "XML"]
-  },
-  {
-    id: "3",
-    company: "Self-Learning & Academic Projects",
-    position: "Software Development Student",
-    duration: "September 2019 - February 2020",
-    location: "Algeria",
-    description: [
-      "Completed intensive self-study program covering fundamental programming concepts and web development technologies",
-      "Built portfolio of personal projects demonstrating proficiency in PHP, MySQL, and frontend technologies",
-      "Studied database design principles, normalization, and relationship modeling for efficient data management",
-      "Developed understanding of software development lifecycle, version control (Git), and project management",
-      "Created responsive web interfaces using HTML5, CSS3, and JavaScript with focus on user experience",
-      "Practiced object-oriented programming principles and design patterns in PHP development",
-      "Learned about web security best practices including SQL injection prevention and data validation",
-      "Participated in online coding communities and contributed to open-source projects for practical experience"
-    ],
-    technologies: ["PHP", "MySQL", "HTML5", "CSS3", "JavaScript", "Git", "Bootstrap", "jQuery"]
   }
 ];
 
@@ -81,30 +139,39 @@ export const skills: Skill[] = [
   
   // Frontend
   { name: "JavaScript", level: 85, category: "frontend" },
-  { name: "HTML/CSS", level: 95, category: "frontend" },
+  { name: "HTML5/CSS3", level: 95, category: "frontend" },
+  { name: "TypeScript", level: 75, category: "frontend" },
+  { name: "VueJs", level: 85, category: "frontend" },
   { name: "Bootstrap", level: 90, category: "frontend" },
   { name: "React", level: 78, category: "frontend" },
-  { name: "Vue.js", level: 70, category: "frontend" },
-  { name: "TypeScript", level: 75, category: "frontend" },
+  { name: "Angular", level: 75, category: "frontend" },
   
   // Database
   { name: "MySQL", level: 90, category: "database" },
   { name: "PostgreSQL", level: 85, category: "database" },
   { name: "Firebase", level: 80, category: "database" },
+  { name: "SupaBase", level: 75, category: "database" },
   { name: "MongoDB", level: 75, category: "database" },
   
-  // Mobile
+  // Mobile & No-Code
   { name: "Flutter", level: 85, category: "mobile" },
   { name: "FlutterFlow", level: 88, category: "mobile" },
   { name: "Dart", level: 82, category: "mobile" },
+  { name: "bubble.io", level: 80, category: "mobile" },
+  { name: "WebFlow", level: 75, category: "mobile" },
+  { name: "PWA", level: 85, category: "mobile" },
   
-  // Tools
+  // Tools & Automation
   { name: "Git", level: 88, category: "tools" },
   { name: "Docker", level: 70, category: "tools" },
   { name: "Linux", level: 80, category: "tools" },
   { name: "VS Code", level: 95, category: "tools" },
   { name: "Composer", level: 85, category: "tools" },
-  { name: "DevOps", level: 65, category: "tools" }
+  { name: "DevOps", level: 65, category: "tools" },
+  { name: "n8n", level: 75, category: "tools" },
+  { name: "Make", level: 70, category: "tools" },
+  { name: "TelegramBot", level: 80, category: "tools" },
+  { name: "Cypress", level: 70, category: "tools" }
 ];
 
 export const githubUsername = "Haithemkoriche";
