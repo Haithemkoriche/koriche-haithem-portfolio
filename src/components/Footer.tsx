@@ -36,11 +36,7 @@ export default function Footer() {
                 Passionate Full Stack Developer creating innovative digital solutions 
                 with modern technologies. Let&apos;s build something amazing together.
               </p>
-              <div className="flex items-center space-x-2 text-sm text-gray-300">
-                <span>Made with</span>
-                <Heart size={16} className="text-red-400" />
-                <span>using Next.js, TypeScript & Tailwind CSS</span>
-              </div>
+              
             </motion.div>
           </div>
 
