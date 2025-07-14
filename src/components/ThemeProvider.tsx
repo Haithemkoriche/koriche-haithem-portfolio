@@ -40,6 +40,9 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (mounted) {
       const root = document.documentElement;
+      console.log('Applying theme:', theme);
+      console.log('Root element classes before:', root.className);
+      
       if (theme === 'dark') {
         root.classList.add('dark');
         root.classList.remove('light');
@@ -49,11 +52,17 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
         root.classList.remove('dark');
         localStorage.setItem('theme', 'light');
       }
+      
+      console.log('Root element classes after:', root.className);
     }
   }, [theme, mounted]);
 
   const toggleTheme = () => {
-    setTheme(prev => prev === 'dark' ? 'light' : 'dark');
+    setTheme(prev => {
+      const newTheme = prev === 'dark' ? 'light' : 'dark';
+      console.log('Toggling theme from', prev, 'to', newTheme);
+      return newTheme;
+    });
   };
 
   return (
