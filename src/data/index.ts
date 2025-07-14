@@ -4,7 +4,7 @@ export const personalInfo = {
   name: "Koriche Haithem",
   title: "Full-stack Developer and Web Specialist",
   email: "korichehaithem2018@gmail.com",
-  phone: "+213 658 73 33 45",
+  phone: "+213555725285",
   location: "Douera, Alger, Algeria",
   github: "https://github.com/Haithemkoriche",
   linkedin: "https://www.linkedin.com/in/korichehaithem/",
